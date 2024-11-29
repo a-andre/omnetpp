@@ -1,0 +1,35 @@
+set(SRCS
+    csvrecexporter.cc
+    csvspreadexporter.cc
+    enumtype.cc
+    exporter.cc
+    exportutils.cc
+    fields.cc
+    filefingerprint.cc
+    idlist.cc
+    indexedvectorfilereader.cc
+    indexfilereader.cc
+    indexfileutils.cc
+    indexfilewriter.cc
+    jsonexporter.cc
+    memoryutils.cc
+    omnetppresultfileloader.cc
+    omnetppscalarfileexporter.cc
+    omnetppvectorfileexporter.cc
+    opp_scavetool.cc
+    resultfilemanager.cc
+    resultitems.cc
+    scaveexception.cc
+    scaveutils.cc
+    sqliteresultfileloader.cc
+    sqliteresultfileutils.cc
+    sqlitescalarfileexporter.cc
+    sqlitevectordatareader.cc
+    sqlitevectorfileexporter.cc
+    vectorfileindex.cc
+    vectorfileindexer.cc
+    vectorutils.cc
+    xyarray.cc
+)
+
+add_library(oppscave ${SRCS})
